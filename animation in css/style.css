@@ -1,0 +1,25 @@
+:root{
+    --dark-red:#981a2c;
+}
+
+.container{
+    border: 2px solid black;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    /* display: flex; */
+    justify-content: center;
+    
+}
+
+.box{
+    border: 2px solid red;
+    background-color: blanchedalmond;
+    --dark-red: #981a2c;
+    --dark:var(--dark-red);
+    height: 40px;
+    width: 80px;
+    text-align: center;
+
+}

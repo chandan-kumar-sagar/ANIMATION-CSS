@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.box{
+    height: 350px;
+    width: 350px;
+    border: 10px solid red;
+    margin: 20px;
+    text-align: center;
+    background-color: hotpink;
+       /* transition:  3s ease 1s; */
+       /* transition: transform 3s cubic-bezier(1,-0.43, 0, 2.18) 1s; */
+       transition-property: transform;
+       transition-duration: 3s;
+       transition-timing-function: cubic-bezier(1,-0.49, 0, 1.61);
+       transition-delay: 1s;
+   
+
+}
+
+.box:hover{
+    background-color: yellow;
+     /* transform: rotate(45deg); */
+    /* transform: translateX(50px); */
+    transform: translatez(50px) rotate(360deg);
+
+}
